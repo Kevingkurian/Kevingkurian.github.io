@@ -9,6 +9,9 @@ authors:
 
 date: '2025-10-10T00:00:00Z'
 
+# List order on the homepage: first-author papers first, then newest first.
+weight: 70
+
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 

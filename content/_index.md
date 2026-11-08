@@ -38,27 +38,15 @@ sections:
   - block: collection
     id: papers
     content:
-      title: First-Author Publications
-      # Show all matching publications (0 = no limit)
+      title: Publications
+      # Show all publications (0 = no limit)
       count: 0
       filters:
         folders:
           - publications
-        featured_only: true
-      sort_by: Date
-      order: desc
-    design:
-      view: citation
-  - block: collection
-    content:
-      title: Co-Authored Publications
-      count: 0
-      filters:
-        folders:
-          - publications
-        exclude_featured: true
-      sort_by: Date
-      order: desc
+      # Order by the `weight` set in each publication: first-author papers first, then by date
+      sort_by: Weight
+      order: asc
     design:
       view: citation
 ---
