@@ -11,11 +11,7 @@ postnominals: []
 status:
   icon: ''
 role: PhD Student in Computer Science
-bio: |
-  Kevin Kurian is a Computer Science PhD student at the University of Florida,
-  advised by Dr. Christan Grant in the UF Data Studio. His research focuses on
-  multi-agent LLM systems and interpretability of how LLM agents reason and
-  interact, with publications at venues including IVA, EMNLP, and IEEE S&P.
+bio: ''
 
 affiliations:
   - name: University of Florida
