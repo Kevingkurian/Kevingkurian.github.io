@@ -1,0 +1,39 @@
+---
+title: "Adversarial Mimicry and Masking in Isolation Forest Anomaly Detection Systems"
+
+# Authors. `me` is replaced with the site owner's name and linked to their profile.
+authors:
+  - "me"
+  - "Clarence Worrell"
+
+date: '2026-01-01T00:00:00Z'
+
+# Publication type (CSL standard).
+publication_types: ['paper-conference']
+
+# Publication metadata used by citation styles and BibTeX export.
+publication:
+  name: "Annual Modeling and Simulation Conference"
+  short_name: "ANNSIM"
+
+peer_reviewed: true
+
+# Short description shown in listings.
+summary: "Accepted at ANNSIM 2026."
+
+tags:
+  - "Adversarial ML"
+  - "Anomaly Detection"
+
+# Display this page in the Featured Publications section?
+featured: true
+
+# Add a `pdf`, `code`, or `slides` link once available, e.g.
+# links:
+#   - type: pdf
+#     url: https://example.com/paper.pdf
+links: []
+
+projects: []
+slides: ""
+---
