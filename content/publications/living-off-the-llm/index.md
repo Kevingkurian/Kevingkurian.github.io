@@ -8,20 +8,20 @@ authors:
   - "me"
   - "Luke Koch"
 
-date: '2025-01-01T00:00:00Z'
+date: '2025-10-13T00:00:00Z'
 
 # Publication type (CSL standard).
-publication_types: ['paper-conference']
+publication_types: ['article-journal']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "IEEE Symposium on Security and Privacy"
+  name: "IEEE Security & Privacy"
   short_name: "IEEE S&P"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Accepted at IEEE S&P 2025."
+summary: "Published at IEEE S&P, 2025."
 
 tags:
   - "LLM Security"
@@ -30,11 +30,15 @@ tags:
 # Display this page in the Featured Publications section?
 featured: false
 
-# Add a `pdf`, `code`, or `slides` link once available, e.g.
-# links:
-#   - type: pdf
-#     url: https://example.com/paper.pdf
-links: []
+# Standard identifiers (auto-linked to DOI / arXiv / ACL Anthology)
+hugoblox:
+  ids:
+    doi: 10.1109/msec.2026.3659035
+    arxiv: 2510.11398
+
+links:
+  - type: pdf
+    url: https://arxiv.org/pdf/2510.11398
 
 projects: []
 slides: ""

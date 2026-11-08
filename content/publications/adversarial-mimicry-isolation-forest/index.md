@@ -6,7 +6,7 @@ authors:
   - "me"
   - "Clarence Worrell"
 
-date: '2026-01-01T00:00:00Z'
+date: '2026-05-01T00:00:00Z'
 
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
@@ -14,12 +14,12 @@ publication_types: ['paper-conference']
 # Publication metadata used by citation styles and BibTeX export.
 publication:
   name: "Annual Modeling and Simulation Conference"
-  short_name: "ANNSIM"
+  short_name: "ANNSIM 2026"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Accepted at ANNSIM 2026."
+summary: "Published at ANNSIM, 2026."
 
 tags:
   - "Anomaly Detection"
@@ -27,10 +27,6 @@ tags:
 # Display this page in the Featured Publications section?
 featured: true
 
-# Add a `pdf`, `code`, or `slides` link once available, e.g.
-# links:
-#   - type: pdf
-#     url: https://example.com/paper.pdf
 links: []
 
 projects: []

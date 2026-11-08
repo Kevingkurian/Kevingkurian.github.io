@@ -8,20 +8,20 @@ authors:
   - "Emmanuel Dorley"
   - "Christan Grant"
 
-date: '2026-01-01T00:00:00Z'
+date: '2026-09-01T00:00:00Z'
 
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "ACM International Conference on Intelligent Virtual Agents"
-  short_name: "IVA"
+  name: "Proceedings of the 26th ACM International Conference on Intelligent Virtual Agents"
+  short_name: "IVA 2026"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Accepted at IVA 2026."
+summary: "Published at IVA, 2026."
 
 tags:
   - "Multi-Agent Systems"
@@ -31,10 +31,11 @@ tags:
 # Display this page in the Featured Publications section?
 featured: true
 
-# Add a `pdf`, `code`, or `slides` link once available, e.g.
-# links:
-#   - type: pdf
-#     url: https://example.com/paper.pdf
+# Standard identifiers (auto-linked to DOI / arXiv / ACL Anthology)
+hugoblox:
+  ids:
+    doi: 10.1145/3806774.3827986
+
 links: []
 
 projects: []
