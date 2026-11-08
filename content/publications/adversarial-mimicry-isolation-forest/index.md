@@ -22,7 +22,6 @@ peer_reviewed: true
 summary: "Accepted at ANNSIM 2026."
 
 tags:
-  - "Adversarial ML"
   - "Anomaly Detection"
 
 # Display this page in the Featured Publications section?

@@ -24,7 +24,6 @@ summary: "Accepted at CSET 2026."
 
 tags:
   - "LLM Security"
-  - "Adversarial ML"
 
 # Display this page in the Featured Publications section?
 featured: true

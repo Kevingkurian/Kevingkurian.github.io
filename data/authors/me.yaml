@@ -14,8 +14,8 @@ role: PhD Student in Computer Science
 bio: |
   Kevin Kurian is a Computer Science PhD student at the University of Florida,
   advised by Dr. Christan Grant in the UF Data Studio. His research focuses on
-  multi-agent LLM systems, adversarial machine learning, and LLM security, with
-  publications at venues including IVA, EMNLP, and IEEE S&P workshops.
+  multi-agent LLM systems and interpretability of how LLM agents reason and
+  interact, with publications at venues including IVA, EMNLP, and IEEE S&P.
 
 affiliations:
   - name: University of Florida
@@ -35,10 +35,10 @@ links:
     url: https://scholar.google.com/citations?user=azNRnecAAAAJ&hl=en
 
 interests:
-  - Multi-Agent LLMs & Systems
+  - Multi-Agent LLM Systems
+  - LLM Interpretability
   - Explainable AI
   - Game Theory
-  - Adversarial ML
   - LLM Security
 
 education:
@@ -58,57 +58,39 @@ experience:
   - role: Applied AI Intern
     org: Pacific Northwest National Laboratory
     start: 2026-05-01
-    summary: |
-      Seattle, WA. Evaluating multi-agent systems in feedback loops; found hallucination rates grow 2.22x faster as collaboration is reduced in research systems.
-  - role: AI Security Intern, Cyber Resilience & Intelligence Division
+    summary: Evaluating multi-agent LLM systems in feedback loops and how reduced collaboration drives hallucination.
+  - role: AI Security Intern
     org: Oak Ridge National Laboratory
     start: 2025-06-01
     end: 2025-08-31
-    summary: |
-      Oak Ridge, TN. Engineered a novel RL-based LLM fingerprinting attack achieving 93.89% accuracy in 3 queries (+14.2% over baseline); developed defensive obfuscation filters and curated a 33,000+ query dataset across 9 open-source models.
-  - role: Data Science Research Intern, CERT Division
+    summary: Worked on automated active fingerprinting for LLMs via reinforcement learning.
+  - role: Undergraduate Research Assistant
+    org: UCF Photovoltaics (HENAT Lab)
+    start: 2024-03-01
+    end: 2025-01-31
+    summary: Studied anomaly detection in large-scale PV systems.
+  - role: Data Science Intern
     org: Software Engineering Institute, Carnegie Mellon University
     start: 2024-05-01
     end: 2024-08-31
-    summary: |
-      Pittsburgh, PA. Exposed "boiling frog" data poisoning in Isolation Forest systems, detecting attacks in network traffic at 17% contamination. Evaluated ensemble deepfake detection and outlier models against GAN and diffusion data, presenting to 50+ CERT staff.
-  - role: Applied Research Systems Engineering Intern
+    summary: Studied robustness of Isolation Forests in cybersecurity settings for anomaly detection.
+  - role: Systems Engineer, Applied Research
     org: Lockheed Martin
     start: 2022-12-01
-    end: 2025-05-31
-    summary: |
-      Orlando, FL. Engineered defense ML pipelines, fine-tuning scale-invariant YOLO in PyTorch and TensorFlow for military object detection. Augmented training data with Pix2Pix, CycleGAN, and Stable Diffusion for synthetic image generation.
-  - role: Undergraduate Applied Research Assistant
-    org: University of Central Florida
+    end: 2024-05-31
+    summary: Applied diffusion models and vision-language models to military tasks such as classification and object recognition.
+  - role: Undergraduate Research Assistant
+    org: UCF Center for Research in Computer Vision (CRCV)
+    start: 2023-11-01
+    end: 2024-02-28
+    summary: Analyzed the robustness of adversarial attacks on VAEs and CNNs under changing image resolution.
+  - role: Undergraduate Research Assistant
+    org: UCF Analytics Decision and Control Lab
     start: 2021-11-01
-    end: 2025-01-31
-    summary: |
-      Orlando, FL. HENAT Lab: optimized 115 PV systems via a digital twin and engineered a WLS-CUSUM model for multivariate time-series anomaly detection (0.919 F1-score). Analytics Decision & Control Lab: built Telegram/SVM pipelines to quantify media bias and fine-tuned T5/DistilBERT on news data, identifying 66% bias retention and systemic dampening.
-
-skills:
-  - name: Languages
-    items:
-      - label: Python
-      - label: C/C++
-      - label: SQL
-      - label: Java
-      - label: MATLAB
-      - label: Gleam
-  - name: AI Frameworks & Libraries
-    items:
-      - label: PyTorch
-      - label: Hugging Face Transformers
-      - label: LangChain
-      - label: Ollama
-      - label: TensorFlow/Keras
-      - label: Scikit-learn
-      - label: Gymnasium
-      - label: OpenCV
-  - name: Core Competencies
-    items:
-      - label: Large Language Models (LLMs)
-      - label: Multi-Agent Systems
-      - label: Retrieval-Augmented Generation (RAG)
-      - label: Model Fine-Tuning
-      - label: Adversarial ML
-      - label: Reinforcement Learning
+    end: 2023-11-30
+    summary: Studied political bias preservation in AI-generated summaries using summarizer models and ML classifiers.
+  - role: Software Engineer Intern
+    org: Florida Blue
+    start: 2022-08-01
+    end: 2023-03-31
+    summary: Engineered end-to-end reporting pipelines for structured and unstructured clinical data.

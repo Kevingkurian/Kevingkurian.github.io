@@ -22,7 +22,7 @@ hugoblox:
     tagline: ""
     # Site meta description for search engines and social sharing
     description: "Kevin Kurian is a Computer Science PhD student at the University
-      of Florida researching multi-agent LLM systems, adversarial ML, and LLM security."
+      of Florida researching multi-agent LLM systems and LLM interpretability."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)

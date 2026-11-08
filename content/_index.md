@@ -38,11 +38,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. My research sits at the intersection of multi-agent LLM systems and AI security: how LLM agents reason about one another in strategic settings, how adversaries can fingerprint, poison, or mimic their way past ML systems, and how we can build defenses and explanations that hold up under pressure.
+        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. My research focuses on multi-agent LLM systems and on interpretability within them: how LLM agents reason about one another in strategic settings, how collaboration and feedback shape their behavior, and how we can explain and audit what these systems are doing.
 
-        Recent work spans evaluating LLM social cognition through multi-agent strategic games, attacks and defenses against LLM fingerprinting, adversarial mimicry in anomaly detection, and fairness auditing tools for text classification. I have also spent summers working on applied AI and AI security at Pacific Northwest National Laboratory, Oak Ridge National Laboratory, and the Software Engineering Institute at Carnegie Mellon University.
+        Recent work includes evaluating LLM social cognition through multi-agent strategic games, measuring context-switching costs in hybrid LLM-algorithm systems, and building interactive diagnostics for fairness auditing in text classification. I have also spent summers on applied AI and AI security research at Pacific Northwest National Laboratory, Oak Ridge National Laboratory, and the Software Engineering Institute at Carnegie Mellon University.
 
-        I am always happy to talk about collaborations in multi-agent systems, adversarial ML, or LLM security. Please reach out!
+        I am always happy to talk about collaborations in multi-agent systems and LLM interpretability. Please reach out!
     design:
       columns: '1'
   - block: collection
