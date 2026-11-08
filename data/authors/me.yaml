@@ -40,15 +40,12 @@ interests:
 education:
   - degree: PhD in Computer Science
     institution: University of Florida
-    start: 2025-08-01
+    year: In Progress
     summary: |
-      Advisor: Dr. Christan Grant, UF Data Studio. GPA: 4.0.
+      Advisor: Dr. Christan Grant, UF Data Studio.
   - degree: BS in Computer Engineering
     institution: University of Central Florida
-    start: 2021-08-01
-    end: 2025-05-31
-    summary: |
-      GPA: 3.99.
+    year: 2025
 
 experience:
   - role: Applied AI Intern
