@@ -58,7 +58,7 @@ experience:
   - role: Applied AI Intern
     org: Pacific Northwest National Laboratory
     start: 2026-05-01
-    summary: Evaluating multi-agent LLM systems in feedback loops and how reduced collaboration drives hallucination.
+    summary: Evaluating multi-agent LLM systems in feedback loops.
   - role: AI Security Intern
     org: Oak Ridge National Laboratory
     start: 2025-06-01
@@ -77,7 +77,7 @@ experience:
   - role: Systems Engineer, Applied Research
     org: Lockheed Martin
     start: 2022-12-01
-    end: 2024-05-31
+    end: 2025-05-31
     summary: Applied diffusion models and vision-language models to military tasks such as classification and object recognition.
   - role: Undergraduate Research Assistant
     org: UCF Center for Research in Computer Vision (CRCV)
