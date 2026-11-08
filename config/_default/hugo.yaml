@@ -61,5 +61,8 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    # Allow Hugo to run the Tailwind CSS v4 CLI (required by HugoBlox)
+    allow: ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
 sitemap:
   _merge: deep
