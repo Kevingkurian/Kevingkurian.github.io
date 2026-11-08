@@ -12,7 +12,7 @@ sections:
       username: me
       # Short first-person research statement shown next to the profile
       text: |-
-        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. I study multi-agent LLM systems and how to interpret what happens inside them: how LLM agents reason about one another in strategic settings, how collaboration and feedback loops shape their behavior, and how we can explain and audit the decisions these systems make. My recent work includes evaluating LLM social cognition through multi-agent strategic games, measuring context-switching costs in hybrid LLM-algorithm systems, and building interactive diagnostics for fairness auditing. I have also spent summers on applied AI research at Pacific Northwest National Laboratory, Oak Ridge National Laboratory, and the Software Engineering Institute at Carnegie Mellon University. I am always happy to talk about collaborations in multi-agent systems and LLM interpretability.
+        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. I study multi-agent LLM systems and how to interpret what happens inside them: how LLM agents reason about one another in strategic settings, how collaboration and feedback loops shape their behavior, and how we can explain and audit the decisions these systems make.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
