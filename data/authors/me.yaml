@@ -22,13 +22,15 @@ affiliations:
 links:
   - icon: at-symbol
     url: mailto:kuriankevin@ufl.edu
-    label: E-mail Me
+    label: kuriankevin@ufl.edu
   - icon: brands/github
     url: https://github.com/Kevingkurian
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/kevingkurian
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=azNRnecAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0001-5110-9095
 
 interests:
   - Multi-Agent LLM Systems
