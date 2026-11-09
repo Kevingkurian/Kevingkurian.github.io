@@ -50,40 +50,48 @@ education:
 experience:
   - role: Applied AI Intern
     org: Pacific Northwest National Laboratory
+    logo: pnnl
     start: 2026-05-01
     summary: Evaluating multi-agent LLM systems in feedback loops.
   - role: AI Security Intern
     org: Oak Ridge National Laboratory
+    logo: ornl
     start: 2025-06-01
     end: 2025-08-31
     summary: Worked on automated active fingerprinting for LLMs via reinforcement learning.
   - role: Undergraduate Research Assistant
     org: UCF Photovoltaics (HENAT Lab)
+    logo: ucf
     start: 2024-03-01
     end: 2025-01-31
     summary: Studied anomaly detection in large-scale PV systems.
   - role: Data Science Intern
     org: Software Engineering Institute, Carnegie Mellon University
+    logo: sei
     start: 2024-05-01
     end: 2024-08-31
     summary: Studied robustness of Isolation Forests in cybersecurity settings for anomaly detection.
   - role: Systems Engineer, Applied Research
     org: Lockheed Martin
+    logo: lockheed
     start: 2022-12-01
     end: 2025-05-31
     summary: Applied diffusion models and vision-language models to military tasks such as classification and object recognition.
   - role: Undergraduate Research Assistant
     org: UCF Center for Research in Computer Vision (CRCV)
+    logo: ucf
     start: 2023-11-01
     end: 2024-02-28
     summary: Analyzed the robustness of adversarial attacks on VAEs and CNNs under changing image resolution.
   - role: Undergraduate Research Assistant
     org: UCF Analytics Decision and Control Lab
+    logo: ucf
     start: 2021-11-01
     end: 2023-11-30
     summary: Studied political bias preservation in AI-generated summaries using summarizer models and ML classifiers.
   - role: Software Engineer Intern
     org: Florida Blue
+    logo: floridablue
     start: 2022-08-01
     end: 2023-03-31
     summary: Engineered end-to-end reporting pipelines for structured and unstructured clinical data.
