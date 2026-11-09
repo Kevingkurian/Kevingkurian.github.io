@@ -55,3 +55,8 @@
 .pub-title-link {
   font-weight: 600;
 }
+
+/* Hide the "Powered by Hugo Blox" link inside the search modal */
+a[href="https://hugoblox.com"][target="_blank"] {
+  display: none !important;
+}
