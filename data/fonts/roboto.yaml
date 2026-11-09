@@ -1,0 +1,35 @@
+# Custom HugoBlox Font Pack: Roboto
+# Follows the same schema as the theme's built-in packs (see data/fonts in the blox module).
+
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "Roboto"
+    vendor: "custom"
+    version: "1.0.0"
+    license: "Apache-2.0"
+    description: "Roboto for headings and body, Roboto Mono for code"
+
+  families:
+    heading: "Roboto"
+    body: "Roboto"
+    code: "Roboto Mono"
+
+  weights:
+    heading: [500, 700]
+    body: [400, 500]
+    code: [400]
+
+  leading:
+    heading: 1.2
+    body: 1.6
+    code: 1.5
+
+  tracking:
+    heading: "-0.01em"
+    body: "0"
+
+  variable:
+    heading: true
+    body: true
+    code: true
