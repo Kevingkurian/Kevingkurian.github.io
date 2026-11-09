@@ -60,3 +60,21 @@
 a[href="https://hugoblox.com"][target="_blank"] {
   display: none !important;
 }
+
+/* Publications: larger text and less space between the heading and the list */
+.view-citation {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+.view-citation .pub-title-link {
+  font-size: 1.2rem;
+}
+.view-citation .pub-icon {
+  display: none;
+}
+#papers .mt-16 {
+  margin-top: 0.5rem !important;
+}
+#papers .mb-6 {
+  margin-bottom: 0.25rem;
+}

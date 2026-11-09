@@ -12,18 +12,20 @@ date: '2026-11-01T00:00:00Z'
 # List order on the homepage: first-author papers first, then newest first.
 weight: 40
 
+# Where the paper title links to (PDF when available, otherwise Google Scholar).
+paper_url: https://aclanthology.org/2026.emnlp-demos.11.pdf
+
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
-  short_name: "EMNLP 2026 Demos"
+  name: "Conference on Empirical Methods in Natural Language Processing (EMNLP), System Demonstrations"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Published at EMNLP Demos, 2026."
+summary: "Conference on Empirical Methods in Natural Language Processing (EMNLP), System Demonstrations."
 
 tags:
   - "Explainable AI"

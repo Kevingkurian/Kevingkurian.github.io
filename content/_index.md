@@ -12,8 +12,7 @@ sections:
       username: me
       # Short first-person research statement shown next to the profile
       text: |-
-        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. I study multi-agent LLM systems and how to interpret what happens inside them: how LLM agents reason about one another in strategic settings, and how we can explain and audit the decisions these systems make.
-      # Show a call-to-action button under your biography? (optional)
+        I am a Computer Science PhD student at the University of Florida, advised by Dr. Christan Grant in the UF Data Studio. I study multi-agent LLM systems and how to interpret what happens inside them: how LLM agents reason about one another in strategic settings, and how we can explain the decisions these systems make.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -58,4 +57,13 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: markdown
+    id: projects
+    content:
+      title: Projects
+      subtitle: ''
+      text: |-
+        Project write-ups are coming soon. In the meantime, see my [publications](#papers) or reach out by [email](mailto:kuriankevin@ufl.edu).
+    design:
+      columns: '1'
 ---

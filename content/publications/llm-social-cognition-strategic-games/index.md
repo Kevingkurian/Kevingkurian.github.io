@@ -13,18 +13,20 @@ date: '2026-09-01T00:00:00Z'
 # List order on the homepage: first-author papers first, then newest first.
 weight: 10
 
+# Where the paper title links to (PDF when available, otherwise Google Scholar).
+paper_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=azNRnecAAAAJ&citation_for_view=azNRnecAAAAJ:2osOgNQ5qMEC
+
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "Proceedings of the 26th ACM International Conference on Intelligent Virtual Agents"
-  short_name: "IVA 2026"
+  name: "ACM International Conference on Intelligent Virtual Agents (IVA)"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Published at IVA, 2026."
+summary: "ACM International Conference on Intelligent Virtual Agents (IVA)."
 
 tags:
   - "Multi-Agent Systems"

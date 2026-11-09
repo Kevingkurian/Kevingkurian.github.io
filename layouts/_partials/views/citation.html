@@ -1,7 +1,7 @@
 {{/*
   Site override of the HugoBlox `citation` view.
-  The paper title links directly to the external paper (DOI > preprint > PDF > source),
-  falling back to the internal page when no external link exists. Link buttons are not
+  The paper title links directly to the paper PDF or Google Scholar (`paper_url`), falling back to
+  PDF > preprint > DOI. Internal publication pages are not used. Link buttons are not
   repeated underneath; they remain available on each publication's own page.
 */}}
 {{ $item := .item }}
@@ -11,16 +11,15 @@
 {{ $top_award := "" }}
 {{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
 
-{{/* Pick the best external link for the title */}}
-{{ $links := partial "functions/build_links" (dict "page" $item "is_list" 1) }}
-{{ $url := $item.RelPermalink }}
-{{ $external := false }}
-{{ range $type := slice "doi" "preprint" "pdf" "source" "site" }}
-  {{ if not $external }}
-    {{ range $links }}
-      {{ if and (not $external) (eq .type $type) (hasPrefix .url "http") }}
-        {{ $url = .url }}
-        {{ $external = true }}
+{{/* Title link: explicit `paper_url` (PDF or Google Scholar) first, else PDF > preprint > DOI > source. */}}
+{{ $url := "" }}
+{{ with $item.Params.paper_url }}{{ $url = printf "%v" . }}{{ end }}
+{{ if not $url }}
+  {{ $links := partial "functions/build_links" (dict "page" $item "is_list" 1) }}
+  {{ range $type := slice "pdf" "preprint" "doi" "source" "site" }}
+    {{ if not $url }}
+      {{ range $links }}
+        {{ if and (not $url) (eq .type $type) (hasPrefix .url "http") }}{{ $url = .url }}{{ end }}
       {{ end }}
     {{ end }}
   {{ end }}
@@ -32,7 +31,7 @@
     {{ partial "page_metadata_authors" $item }}
   </span>
   ({{- $year -}}).
-  <a href="{{ $url }}" class="pub-title-link"{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ $item.Title }}</a>.
+  {{ if $url }}<a href="{{ $url }}" class="pub-title-link" target="_blank" rel="noopener">{{ $item.Title }}</a>.{{ else }}<span class="pub-title-link">{{ $item.Title }}</span>.{{ end }}
   {{ with $pub.display_short }}{{- . | markdownify -}}.{{ end }}
   {{ with $top_award }}
     <span class="ml-1">{{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "inline") }}</span>

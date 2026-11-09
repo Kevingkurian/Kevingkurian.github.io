@@ -13,18 +13,20 @@ date: '2025-10-13T00:00:00Z'
 # List order on the homepage: first-author papers first, then newest first.
 weight: 60
 
+# Where the paper title links to (PDF when available, otherwise Google Scholar).
+paper_url: https://arxiv.org/pdf/2510.11398
+
 # Publication type (CSL standard).
 publication_types: ['article-journal']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
   name: "IEEE Security & Privacy"
-  short_name: "IEEE S&P"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Published at IEEE S&P, 2025."
+summary: "IEEE Security & Privacy."
 
 tags:
   - "LLM Security"

@@ -12,18 +12,20 @@ date: '2025-10-10T00:00:00Z'
 # List order on the homepage: first-author papers first, then newest first.
 weight: 70
 
+# Where the paper title links to (PDF when available, otherwise Google Scholar).
+paper_url: https://arxiv.org/pdf/2510.08945
+
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "IEEE International Conference on Software Testing, Verification and Validation Workshops (SAFE-ML Workshop)"
-  short_name: "ICST Workshops 2026 (SAFE-ML)"
+  name: "IEEE International Conference on Software Testing, Verification and Validation (ICST) Workshops, SAFE-ML Workshop"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Published at ICST Workshops (SAFE-ML), 2025."
+summary: "IEEE International Conference on Software Testing, Verification and Validation (ICST) Workshops, SAFE-ML Workshop."
 
 tags:
   - "Retrieval-Augmented Generation"

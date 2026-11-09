@@ -12,7 +12,6 @@ main:
   - name: Experience
     url: /#experience
     weight: 20
-  # Re-enable once projects are added to `content/projects/`
-  # - name: Projects
-  #   url: projects/
-  #   weight: 30
+  - name: Projects
+    url: /#projects
+    weight: 30

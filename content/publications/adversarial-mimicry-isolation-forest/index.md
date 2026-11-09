@@ -11,18 +11,20 @@ date: '2026-05-01T00:00:00Z'
 # List order on the homepage: first-author papers first, then newest first.
 weight: 20
 
+# Where the paper title links to (PDF when available, otherwise Google Scholar).
+paper_url: https://scholar.google.com/citations?user=azNRnecAAAAJ&hl=en
+
 # Publication type (CSL standard).
 publication_types: ['paper-conference']
 
 # Publication metadata used by citation styles and BibTeX export.
 publication:
-  name: "Annual Modeling and Simulation Conference"
-  short_name: "ANNSIM 2026"
+  name: "Annual Modeling and Simulation Conference (ANNSIM)"
 
 peer_reviewed: true
 
 # Short description shown in listings.
-summary: "Published at ANNSIM, 2026."
+summary: "Annual Modeling and Simulation Conference (ANNSIM)."
 
 tags:
   - "Anomaly Detection"
