@@ -1,6 +1,6 @@
 # Navigation Links
-#   To link a homepage section, specify the URL as `/#` followed by the section's `id`
-#   in `content/_index.md`. The weight parameter defines the order of the links.
+#   All tabs are anchors into sections on the single-page homepage (`content/_index.md`).
+#   `/#<id>` matches the `id` of a block in `content/_index.md`.
 
 main:
   - name: Bio
@@ -10,7 +10,7 @@ main:
     url: /#papers
     weight: 11
   - name: Experience
-    url: experience/
+    url: /#experience
     weight: 20
   # Re-enable once projects are added to `content/projects/`
   # - name: Projects

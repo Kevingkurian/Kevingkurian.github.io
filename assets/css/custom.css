@@ -1,0 +1,57 @@
+/* Site-specific overrides (loaded after the theme CSS by HugoBlox). */
+
+/* Larger navigation tab names */
+.nav-link,
+.nav-dropdown-link {
+  font-size: 1.2rem;
+}
+
+/* Tighter vertical spacing in the biography hero */
+.resume-biography {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.resume-biography .mb-16 {
+  margin-bottom: 2.5rem;
+}
+
+/* Education cards: two wide columns with more room instead of three narrow ones */
+.resume-biography [class*="xl:grid-cols-3"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1.5rem;
+}
+.resume-biography [class*="xl:grid-cols-3"] > div {
+  padding: 2rem;
+  min-height: 9rem;
+}
+.resume-biography [class*="xl:grid-cols-3"] > div p.text-xl {
+  font-size: 1.35rem;
+}
+.resume-biography [class*="xl:grid-cols-3"] > div p.text-base {
+  font-size: 1.1rem;
+}
+
+/* Make embedded links visibly links (affiliations, bio text, publication titles) */
+.resume-biography a[href^="http"],
+.bio-text a,
+.pub-title-link {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-300);
+  text-underline-offset: 3px;
+}
+.resume-biography a[href^="http"]:hover,
+.bio-text a:hover,
+.pub-title-link:hover {
+  color: var(--color-primary-700);
+  text-decoration-color: var(--color-primary-600);
+}
+.dark .resume-biography a[href^="http"],
+.dark .bio-text a,
+.dark .pub-title-link {
+  color: var(--color-primary-400);
+  text-decoration-color: var(--color-primary-700);
+}
+.pub-title-link {
+  font-weight: 600;
+}

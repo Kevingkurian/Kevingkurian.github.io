@@ -1,0 +1,40 @@
+{{/*
+  Site override of the HugoBlox `citation` view.
+  The paper title links directly to the external paper (DOI > preprint > PDF > source),
+  falling back to the internal page when no external link exists. Link buttons are not
+  repeated underneath; they remain available on each publication's own page.
+*/}}
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $pub := partial "functions/resolve_publication.html" $item }}
+{{ $top_award := "" }}
+{{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
+
+{{/* Pick the best external link for the title */}}
+{{ $links := partial "functions/build_links" (dict "page" $item "is_list" 1) }}
+{{ $url := $item.RelPermalink }}
+{{ $external := false }}
+{{ range $type := slice "doi" "preprint" "pdf" "source" "site" }}
+  {{ if not $external }}
+    {{ range $links }}
+      {{ if and (not $external) (eq .type $type) (hasPrefix .url "http") }}
+        {{ $url = .url }}
+        {{ $external = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 0.75rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <span class="article-metadata li-cite-author">
+    {{ partial "page_metadata_authors" $item }}
+  </span>
+  ({{- $year -}}).
+  <a href="{{ $url }}" class="pub-title-link"{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ $item.Title }}</a>.
+  {{ with $pub.display_short }}{{- . | markdownify -}}.{{ end }}
+  {{ with $top_award }}
+    <span class="ml-1">{{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "inline") }}</span>
+  {{ end }}
+</div>
